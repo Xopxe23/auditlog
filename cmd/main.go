@@ -7,6 +7,9 @@ import (
 	"time"
 
 	"github.com/xopxe23/auditlog/internal/config"
+	"github.com/xopxe23/auditlog/internal/repository"
+	"github.com/xopxe23/auditlog/internal/server"
+	"github.com/xopxe23/auditlog/internal/service"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
